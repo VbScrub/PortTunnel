@@ -20,3 +20,4 @@ On the remote machine:
 
 `PT.exe -s 192.168.0.10 -p 5985`
 
+# Requires .NET Framework 4.0 (full or client profile)
