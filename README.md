@@ -1,5 +1,7 @@
 # PortTunnel
 
+**NOTE: This is only intended for use on Windows and targets .NET Framework 4.0**
+
 A simple port forwarding/tunnelling utility (think Chisel but simpler, if all you want to do is reverse port tunnelling). 
 
 This lets you forward TCP connections from your own machine on to a remote machine, but sends the data over a separate "tunnel" that was created by the remote machine (bypassing inbound firewall rules on the remote machine, and allowing you to remotely access ports that are only listening for local connections). Full video explanation of port tunnelling concept here: https://www.youtube.com/watch?v=JDUrT3IEzLI
@@ -20,4 +22,4 @@ On the remote machine:
 
 `PT.exe -s 192.168.0.10 -p 5985`
 
-**NOTE: Requires .NET Framework 4.0 (full or client profile)**
+
