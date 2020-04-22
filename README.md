@@ -12,7 +12,7 @@ Full documentation of usage here: https://vbscrub.com/tools/porttunnel-pt-exe
 
 # Example
 
-To allow remote access to port 5985 on a machine that is only listening locally or has firewall blocking it:
+To allow remote access to the powershell remoting port (5985) on a machine that is only listening locally or has firewall blocking it:
 
 On your own machine that has an IP of 192.168.0.10:
 
@@ -22,4 +22,7 @@ On the remote machine:
 
 `PT.exe -s 192.168.0.10 -p 5985`
 
+Now when you connect with powershell to your own local machine like so, it will actually connect to the remote machine:
+
+`Enter-PsSession localhost`
 
